@@ -1,9 +1,9 @@
 image: yuokada/grpc_cli:latest
 manifests:
-  - image: yuokada/grpc_cli:amd64
-    platform:
-      architecture: amd64
-      os: linux
+  # - image: yuokada/grpc_cli:amd64
+  #   platform:
+  #     architecture: amd64
+  #     os: linux
   - image: yuokada/grpc_cli:arm64v8
     platform:
       architecture: arm64
